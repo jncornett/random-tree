@@ -36,7 +36,7 @@ sketch((p5, { run }) => {
       }
     },
   };
-})();
+})(document.getElementById("container"));
 
 function* tree(props: {
   origin: P5.Vector;
