@@ -5,9 +5,7 @@ export default {
   entry: "./src/index.ts",
   resolve: { extensions: [".ts", ".js"] },
   plugins: [new HtmlWebpackPlugin({ template: "src/index.html" })],
-  output: {
-    path: __dirname + "/docs",
-  },
+  output: { path: __dirname },
   module: {
     rules: [
       {
